@@ -165,6 +165,7 @@
           "slide08",
           "slide10",
           "slide11",
+          "slide12",
           "slide07",
         ],
         menu: "#nav",
