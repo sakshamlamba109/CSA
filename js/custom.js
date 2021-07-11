@@ -157,8 +157,8 @@
         anchors: [
           "slide01",
           "slide02",
-          "slide13",
           "slide03",
+          "slide13",
           "slide09",
           "slide04",
           "slide05",
