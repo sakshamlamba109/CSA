@@ -11,7 +11,7 @@
 }
 @media screen and (max-width: 764px) {
   .smallheight{
-    height:260vh;
+    height:290vh;
     width:100%;
   }
     .h1{
@@ -19,7 +19,10 @@
       animation:  fadeinimg 3s  linear ;
       font-size:xx-small;
   }
-  
+  .btn1{
+    margin-left:60%;
+    width:30%;
+  }
 }
 @media screen and (min-width: 765px) {
   .smallheight{
@@ -31,6 +34,11 @@
     color: white;
     animation:  fadeinimg 3s  linear ;
     font-size:xx-large;
+}
+.btn1{
+  margin-left:85%;
+  width:10%;
+  margin-top:-40px;
 }
 }
 /* .banner{
@@ -141,9 +149,4 @@
   outline: none;
 
 
-}
-.btn1{
-  margin-left:85%;
-  width:10%;
-  margin-top:-40px;
 }
