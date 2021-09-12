@@ -3,11 +3,35 @@
     padding: 0;
 }
 #bgimg{
-    height:120vh;
+    
     width:100%;
     margin-top:-10px;
     animation: zoom 5s  linear infinite;
 
+}
+@media screen and (max-width: 764px) {
+  .smallheight{
+    height:260vh;
+    width:100%;
+  }
+    .h1{
+      color: white;
+      animation:  fadeinimg 3s  linear ;
+      font-size:xx-small;
+  }
+  
+}
+@media screen and (min-width: 765px) {
+  .smallheight{
+    height:120vh;
+    width:100%;
+
+  }
+  .h1{
+    color: white;
+    animation:  fadeinimg 3s  linear ;
+    font-size:xx-large;
+}
 }
 /* .banner{
     height:auto;
@@ -22,8 +46,7 @@
     top: 0;   
 } */
 .overlay{
-    height:120vh;
-    width:100%;
+    
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
     position: absolute;
     top: 0;
