@@ -23,7 +23,7 @@
 }
 @media screen and (min-width: 765px) {
   .smallheight{
-    height:120vh;
+    height:125vh;
     width:100%;
 
   }
@@ -87,6 +87,7 @@
       transform: perspective(800px) rotateX(0deg); } }
 .card{
     width: 100%; 
+    height:92%;
     margin-top: 60px;
     color:white;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
@@ -140,4 +141,9 @@
   outline: none;
 
 
+}
+.btn1{
+  margin-left:85%;
+  width:10%;
+  margin-top:-40px;
 }
