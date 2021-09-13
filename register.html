@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link href="css/registrationstyle.css" rel="stylesheet">
+    <link href="registrationstyle.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>Registration</title>
 
@@ -13,55 +13,53 @@
 <body onload="slider()">
     <div class="banner">
         <div class="sliderbackground">
-            <img src="images/img1.jpg" id="bgimg" class="smallheight">
+            <img src="img1.jpg" id="bgimg" class="smallheight">
         </div>
     </div>
     <div class="overlay smallheight">
-        <div class="navbar" ><span ><img src="logonew.png" class="logo"><span class="h1" >Registration Portal</span></span></div>
+        <div class="navbar" ><span style="position:relative;"><img src="logonew.png" class="logo"></span><span class="h1" style="align-self:center; width:65%;">Registration Portal</span></div>
         
         <div class="container-fluid">
             <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 "><div class="card" style=" background-color:rgba(250, 250, 250, 0.25); border-radius: 20px;"> <p style="text-align: center;" class="h3">Registration Form </p><br>
-                <input type="text" id="fname" name="firstname" placeholder="Name"  required="required" class=" input">
+                <input type="text" id="fname" name="firstname" placeholder="Your name.."  required="required" class=" input">
                 <br>
-                <input type="text" id="femail"  placeholder="Email"  required="required" class="input">
+                <input type="text" id="femail"  placeholder="Your email..."  required="required" class="input">
                 <br>
-                <input type="text" id="fcontact"  placeholder="Watsapp number"  required="required" class=" input">
+                <input type="text" id="fcontact"  placeholder="Your Watsapp number..."  required="required" class=" input">
                 <br>
-                <input type="text" id="fsapid"  placeholder="Sapid"  required="required" class=" input">
+                <input type="text" id="fsapid"  placeholder="Your sapid..."  required="required" class=" input">
                 <br>
-                <input type="text" id="fyear"  placeholder="Academic Year"  required="required" class=" input">
+                <input type="number" id="fsapid"  placeholder="Your Academic Year"  required="required" class=" input">
                 <br>
-                <input type="text" id="fcoursename"  placeholder="course name" required="required" class=" input">
+                <input type="text" id="fcoursename"  placeholder="Your course name..." required="required" class=" input">
                 <br>
                 <select class="input" id="Mode of payment" required="required">
                 <option value="" disabled="disabled" style="color:gray" selected="selected">Mode Of Payment</option>
-                <option value="paytm" >PAYTM</option>
-                <option value="gpay">Google Pay</option>
+                <option value="h" >PAYTM</option>
+                <option value="m">Google Pay</option>
                 </select>
                 <br>
                 <input type="text" id="transactionid"  placeholder="Transaction Id..."  required="required"class=" input">
                 <br>
                 <select class="input" id="gender" required="required">
                     <option value="" disabled="disabled" style="color:gray" selected="selected">Gender</option>
-                    <option value="male" >Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Other</option>
-                    <option value="not to say">Prefer not to say</option>
+                    <option value="h" >Male</option>
+                    <option value="m">Female</option>
+                    <option value="m">Other</option>
+                    <option value="m">Prefer not to say</option>
                     </select>
                 <br>
                 <label style="color:white; margin-left:16%;"  for="ss">Screenshot of Transaction: </label><br>
-                <input type="file" style="color:white; margin-left:16%; margin-top: -20px;"   id="ss" name ="ss" lang="es" required="required" clas="input">
-                <button class="btn1 btn btn-primary" style="border-radius:40px;">Submit</button>
-                  <br>
+                <input type="file" style="color:white; margin-left:16%; margin-top: -20px;"   id="ss" name ="ss" lang="es" required="required" clas="input"><button class="btn1 btn btn-primary" style="border-radius:40px;">Submit</button><br>
 
 
                 </div></div>
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 "><div style="background-color:rgba(250, 250, 250, 0.25); border-radius: 20px;"><h5 class="h5" style="padding-top:20px;">PAYMENT METHODS</h5><p style="color: white; margin-top:40px;  margin-left:50px;">PAYTM</p><div  style=" margin-left:50px;"><img src="images/paytm.jpeg" width="100%" height="200px" style="padding-right: 40px;"></div><p style="color: white; margin-top:40px;  margin-left:50px;">GPAY</p><div  style=" margin-left:50px;"><img src="images/gpay.jpeg" width="100%" height="250px" style="padding-right: 40px; padding-bottom:20px;"></div></div></div>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 "><div style="background-color:rgba(250, 250, 250, 0.25); border-radius: 20px;" class="card1"><h5 class="h5" style="padding-top:20px;">PAYMENT METHODS</h5><p style="color: white; margin-top:40px;  margin-left:50px;">PAYTM</p><div  style=" margin-left:50px;"><img src="paytm.jpeg" width="90%" height="200px" style="padding-right: 40px;"></div><p style="color: white; margin-top:40px;  margin-left:50px;">GPAY</p><div  style=" margin-left:50px;"><img src="gpay.jpeg" width="90%" height="250px" style="padding-right: 40px; padding-bottom:20px;"></div></div></div>
             </div>
         </div>
     </div>
 
 </body>
-<script  src="js/registrationjs.js"></script>
+<script  src="registrationjs.js"></script>
 </html>
