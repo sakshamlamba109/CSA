@@ -1,0 +1,26 @@
+{
+  "name": "UPES-CSA-Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "registrationjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakshamlamba109/UPES-CSA-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakshamlamba109/UPES-CSA-Website/issues"
+  },
+  "homepage": "https://github.com/sakshamlamba109/UPES-CSA-Website#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "nodemon": "^2.0.12"
+  }
+}
